@@ -6,9 +6,9 @@ import {
   generateAIQuizHandler,
   seedQuizzesHandler,
   getCategories,
-} from '../controllers/quizController.js';
-import { authenticate, optionalAuth } from '../middleware/auth.js';
-import { validate, createQuizSchema, aiQuizSchema } from '../middleware/validate.js';
+} from '../../controllers/quizController.js';
+import { authenticate, optionalAuth } from '../../middleware/auth.js';
+import { validate, createQuizSchema, aiQuizSchema } from '../../middleware/validate.js';
 
 const router = Router();
 
